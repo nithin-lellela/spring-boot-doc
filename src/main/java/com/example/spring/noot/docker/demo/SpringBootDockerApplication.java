@@ -11,7 +11,7 @@ public class SpringBootDockerApplication {
 
 	@GetMapping("/message")
 	public String getMessage() {
-		return "Hello, Ram Chandra.\nDeclare variables, not WAR's...!!!!!";
+		return "Hello World, Declare variables, not WAR's...!!!!!";
 	}
 	
 	public static void main(String[] args) {
